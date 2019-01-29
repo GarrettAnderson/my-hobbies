@@ -19,19 +19,39 @@ html {
 body {
 width: 960px;
 margin: 0 auto;
-min-height: 100%;
+height: 100%;
+}
+
+.container {
+  min-height: 100%;
+  position: relative;
 }
 
 .navBar {
   list-style: none;
   width: 100%;
   align-content: center;
-  height: 10%;
+  background-color: #4289f4;
+  opacity: 0.6;
+  height: 20%;
 }
 
 .navBarList li{
 display: inline;
 padding: 1.5em;
+font-size: 16px;
+cursor: pointer;
+}
+
+.navBarList li:hover {
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.navBarList li a {
+  text-decoration: none;
+  cursor: pointer;
+  color: #fff;
 }
 
 .mainContent {
@@ -44,11 +64,21 @@ padding: 1.5em;
   float: right;
 }
 
-.footer {
-  height: 10%;
-}
-
 .mainContent p {
   width: 90%;
   margin: 2px 2px;
+}
+
+.footer {
+  height: 10%;
+  position: absolute;
+  bottom: 0;
+  background-color: #4289f4;
+  opacity: 0.6;
+  width: 100%;
+  align-content: center;
+}
+
+.footer p {
+  color: #fff;
 }
