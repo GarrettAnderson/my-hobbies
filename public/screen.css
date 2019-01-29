@@ -62,7 +62,13 @@ cursor: pointer;
   width: 30%;
   height: 495px;
   float: right;
-  background-color: #D8D8D8
+  background-color: #F0F0F0;
+}
+
+.sidebar header {
+font-size: 16px;
+font-weight: bold;
+color: #003366;
 }
 
 .sidebar img {
@@ -72,20 +78,26 @@ cursor: pointer;
   height: 220px;
 }
 
+.sidebar p {
+  color: #003366;
+}
+
 .mainContent {
   width: 70%;
   height: 495px;
-  background-color: #D8D8D8;
+  background-color: #F0F0F0;
 }
 
 .mainContent h1 {
   margin: 0px 25px;
   padding-top: 50px;
+  color: #003366;
 }
 
 .mainContent p {
   width: 90%;
   margin: 20px 25px;
+  color: #003366;
 }
 
 .footer {
