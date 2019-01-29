@@ -68,6 +68,8 @@ cursor: pointer;
 .sidebar img {
   border-radius: 50%;
   padding-top: 10px; 
+  width: 250px;
+  height: 220px;
 }
 
 .mainContent {
