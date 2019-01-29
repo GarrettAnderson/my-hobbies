@@ -33,7 +33,11 @@ height: 100%;
   align-content: center;
   background-color: #4289f4;
   opacity: 0.6;
-  height: 20%;
+  height: 3em;
+}
+
+.navBarList {
+  margin-top: 0px;
 }
 
 .navBarList li{
@@ -57,11 +61,14 @@ cursor: pointer;
 .mainContent {
   width: 70%;
   height: 80%;
+  background-color: ##D8D8D8;
 }
 
 .sidebar {
   width: 30%;
+  height: 80%;
   float: right;
+  background-color: #D8D8D8
 }
 
 .mainContent p {
